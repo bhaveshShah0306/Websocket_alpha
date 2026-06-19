@@ -1,0 +1,10 @@
+@WebSocket_alpha = http://localhost:5250
+
+GET {{WebSocket_alpha}}/weatherforecast/
+Accept: application/json
+
+
+###
+GET {{WebSocket_alpha}}/weatherforecast/ws-status
+Accept: application/json
+
